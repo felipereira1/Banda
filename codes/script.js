@@ -17,7 +17,3 @@ function stopSong() {
   document.querySelector('.pause').style.display = 'none';
   document.querySelector('.play').style.display = 'block';
 }
-
-document.addEventListener("DOMContentLoaded", function() {
-  document.querySelector('.pause').style.display = 'none';
-});
